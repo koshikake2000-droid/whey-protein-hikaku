@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ホエイプロテインのおすすめは？7製品徹底比較</title>
+<meta name="description" content="溶けやすさ・味・お腹への相性で選ぶ、ホエイプロテイン7製品の比較レビュー記事">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f4ee;
+    --surface-2: #efeadd;
+    --ink: #211c17;
+    --ink-soft: #57503f;
+    --ink-faint: #8a8271;
+    --accent: #7c3a22;
+    --accent-strong: #5c2a18;
+    --line: #e4dfd0;
+    --line-strong: #211c17;
+    --good: #3f5c42;
+    --good-bg: #e3e8dd;
+    --caution: #8a5a10;
+    --caution-bg: #efe4cd;
+    --shadow: 0 1px 0 rgba(33,28,23,0.06);
+  }
+  /* Default kept light regardless of OS preference — dark is opt-in only via data-theme="dark" on <html>. */
+  :root[data-theme="dark"] {
+    --bg: #15120e;
+    --surface: #1d1913;
+    --surface-2: #262019;
+    --ink: #ece6d9;
+    --ink-soft: #b7ae9b;
+    --ink-faint: #7d7666;
+    --accent: #e0a379;
+    --accent-strong: #efc39b;
+    --line: #362f22;
+    --line-strong: #ece6d9;
+    --good: #9bbd9b;
+    --good-bg: #232a20;
+    --caution: #d7a544;
+    --caution-bg: #2b2416;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Hiragino Mincho ProN", "YuMincho", "Noto Serif JP", serif;
+    line-height: 1.9;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .display, h1, h2, h3, .eyebrow, .chip, .criteria strong, table, .meta, .disclosure {
+    font-family: "Hiragino Sans", "Yu Gothic UI", "Noto Sans JP", "Segoe UI", sans-serif;
+  }
+  a { color: var(--accent); }
+  ::selection { background: var(--accent); color: var(--surface); }
+
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 24px 96px; }
+  .prose { max-width: 700px; }
+
+  header.hero {
+    padding: 56px 0 28px;
+    border-bottom: 4px solid var(--line-strong);
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+    margin: 0 0 18px;
+  }
+  .eyebrow::before {
+    content: "";
+    width: 22px;
+    height: 2px;
+    background: var(--accent);
+    display: inline-block;
+  }
+  h1.display {
+    font-size: clamp(28px, 5vw, 42px);
+    font-weight: 800;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    text-wrap: balance;
+  }
+  .subhead {
+    font-family: "Hiragino Mincho ProN", "YuMincho", "Noto Serif JP", serif;
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 640px;
+    margin: 0 0 24px;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    letter-spacing: 0.02em;
+  }
+  .meta span b { color: var(--ink-soft); font-weight: 600; }
+
+  section { padding: 44px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: none; }
+  h2.display {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.005em;
+    margin: 0 0 20px;
+    text-wrap: balance;
+  }
+  p { margin: 0 0 1em; }
+  p:last-child { margin-bottom: 0; }
+
+  .exclude-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .exclude-list li {
+    padding-left: 26px;
+    position: relative;
+  }
+  .exclude-list li::before {
+    content: "×";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "Hiragino Sans", "Yu Gothic UI", sans-serif;
+    font-weight: 700;
+    color: var(--ink-faint);
+  }
+
+  .criteria { list-style: none; margin: 0; padding: 0; counter-reset: crit; display: grid; gap: 18px; }
+  .criteria li { counter-increment: crit; padding-left: 40px; position: relative; }
+  .criteria li::before {
+    content: counter(crit);
+    position: absolute;
+    left: 0; top: -2px;
+    width: 26px; height: 26px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: 50%;
+    font-family: "Hiragino Sans", "Yu Gothic UI", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .criteria strong { font-weight: 700; }
+
+  .table-scroll { overflow-x: auto; border-top: 4px solid var(--line-strong); border-bottom: 4px solid var(--line-strong); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    min-width: 720px;
+  }
+  thead th {
+    text-align: left;
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    color: var(--ink-faint);
+    font-weight: 700;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--line-strong);
+    white-space: nowrap;
+  }
+  tbody td {
+    padding: 13px 14px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody td:first-child { font-weight: 700; white-space: nowrap; }
+  .table-note { font-size: 12.5px; color: var(--ink-faint); margin-top: 10px; }
+
+  .products { display: grid; gap: 2px; background: var(--line); border: 1px solid var(--line); }
+  .product {
+    background: var(--surface);
+    padding: 30px 28px;
+    display: grid;
+    gap: 14px;
+  }
+  .product h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: -0.005em;
+  }
+  .block { display: flex; gap: 12px; align-items: flex-start; }
+  .tag {
+    flex: none;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+  .tag.good { background: var(--good-bg); color: var(--good); }
+  .tag.caution { background: var(--caution-bg); color: var(--caution); }
+  .block p { font-size: 15.5px; }
+  .forwhom {
+    font-size: 15px;
+    color: var(--ink-soft);
+    padding-top: 10px;
+    border-top: 1px dashed var(--line);
+  }
+  .forwhom b { color: var(--ink); font-weight: 700; font-family: "Hiragino Sans", "Yu Gothic UI", sans-serif; font-size: 12.5px; letter-spacing: 0.04em; }
+
+  .patterns { display: grid; gap: 22px; }
+  .pattern { padding-left: 20px; border-left: 3px solid var(--line-strong); }
+  .pattern h4 { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
+
+  .usage-list { list-style: none; margin: 0 0 18px; padding: 0; display: grid; gap: 16px; }
+  .usage-list li { padding: 16px 18px; background: var(--surface); border: 1px solid var(--line); }
+  .usage-list b { font-family: "Hiragino Sans", "Yu Gothic UI", sans-serif; }
+
+  footer {
+    padding: 40px 0 0;
+    display: grid;
+    gap: 10px;
+  }
+  .disclosure {
+    font-size: 12px;
+    color: var(--ink-faint);
+    line-height: 1.7;
+    max-width: 700px;
+  }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 0 18px 72px; }
+    header.hero { padding: 40px 0 22px; }
+    .product { padding: 24px 20px; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .product { transition: transform 160ms ease; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">全7製品ガチレビュー比較</p>
+    <h1 class="display">ホエイプロテインのおすすめは？<br>「まずくて続かない」を避けるための7製品徹底比較</h1>
+    <p class="subhead">溶けやすさ・味・お腹への相性――実際に飲んでみないと分からない差だけを軸に、ザバスからエクスプロージョンまで7製品を比較しました。</p>
+    <div class="meta">
+      <span><b>対象</b> ホエイプロテイン 7製品</span>
+      <span><b>想定読者</b> プロテイン選びで失敗したくない初心者</span>
+      <span><b>最終更新</b> 2026年8月11日</span>
+    </div>
+  </header>
+
+  <section class="prose">
+    <h2 class="display">こんな場面、心当たりありませんか</h2>
+    <p>筋トレやダイエットを始めたばかりの人が、SNSの「おすすめランキング」を見て一番人気らしいプロテインを買う。よくある話です。届いてシェイカーで振ると、なぜか粉っぽいダマが残る。一口飲んで「思ったより甘い」「薬品みたいな後味がする」と感じ、棚の奥にしまい込む人も少なくないはずです。実際にレビューを読み込むと、同じ商品に「美味しくてリピートしている」という声と「まずくて続けられなかった」という声が、同じくらいの熱量で並んでいることが分かります。価格や知名度だけで選ぶと、この「割れ」に当たってしまうことがあるようです。</p>
+  </section>
+
+  <section class="prose">
+    <h2 class="display">こんな人には、この記事は正直向いていません</h2>
+    <ul class="exclude-list">
+      <li>とにかく安さ優先で多少の味の癖には目をつぶれる人には、この比較はあまり役に立たないかもしれません。価格だけで選ぶなら、7製品の中でもエクスプロージョンが分かりやすく安い部類です。</li>
+      <li>反対に価格を度外視して成分の純度だけを突き詰めたい人には、今回の7製品はいずれも「ちょうどよさ」狙いの価格帯なので、物足りないかもしれません。</li>
+      <li>乳製品でお腹がゆるくなりやすい人は、WPC系よりも、後述するWPI系から先に見ていくほうが早道かもしれません。</li>
+    </ul>
+  </section>
+
+  <section class="prose">
+    <h2 class="display">選ぶときに見るべき基準は3つ</h2>
+    <ol class="criteria">
+      <li><strong>溶けやすさ</strong>…シェイカーで10秒前後振って飲めるか、それとも底にダマが残りやすいか。</li>
+      <li><strong>味の系統</strong>…甘さがはっきりしたミルクチョコ系か、人によっては薬品っぽさを感じやすい系か。ここは体質より好みの差が大きく、レビューの評価も割れやすいところです。</li>
+      <li><strong>お腹への相性</strong>…WPC系は乳糖の影響でお腹がゆるくなったという声が見られる一方、WPI系(ゴールドジムやバルクスポーツなど)はそのリスクが低いという報告が比較的多く見られました。</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 class="display">比較表</h2>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>商品名</th><th>タイプ</th><th>価格の口コミ傾向</th><th>溶けやすさ</th><th>味の傾向</th><th>こんな人向け</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ザバス ホエイプロテイン100</td><td>WPC</td><td>他社より高めという声あり</td><td>薄めに作ると良好</td><td>甘いミルクココア系</td><td>甘いドリンク感覚で続けたい人</td></tr>
+          <tr><td>マイプロテイン Impact</td><td>WPC</td><td>コスパ良好という声が多い</td><td>評価が真っ二つ</td><td>甘さ強め、フレーバーで差</td><td>コスパ優先で当たり外れを許容できる人</td></tr>
+          <tr><td>ビーレジェンド</td><td>WPC</td><td>コスパ良好という声が中心</td><td>概ね良好</td><td>甘さしっかり、フレーバー豊富</td><td>気に入った一本を長く飲みたい人</td></tr>
+          <tr><td>ゴールドジム ホエイプロテイン100</td><td>WPI中心</td><td>価格への言及は少なめ</td><td>良好という声が多数</td><td>甘さ控えめ、苦味・薬品っぽさの声も</td><td>甘すぎないものを探している人</td></tr>
+          <tr><td>DNS ホエイプロテイン</td><td>WPC</td><td>価格への言及は少なめ</td><td>サラサラで良好</td><td>軽め、ビタミン系配合</td><td>味の安定感を重視する人</td></tr>
+          <tr><td>エクスプロージョン</td><td>WPC</td><td>コスパ良好だが値上げへの不満も目立つ</td><td>良好だが「最近溶けにくい」の声も</td><td>甘さしっかりめ</td><td>量とコスパを優先したい人(価格変動は要確認)</td></tr>
+          <tr><td>バルクスポーツ ビッグホエイ</td><td>WPI</td><td>値上がりに言及する声あり</td><td>良好という声が多い</td><td>薬品っぽさを感じる人も</td><td>乳糖でお腹を壊しやすい人</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-note">※価格は変動があり、レビュー内の言及に基づく傾向のみを記載しています。購入前に最新価格を確認することをおすすめします。</p>
+  </section>
+
+  <section>
+    <h2 class="display">商品別レビュー</h2>
+    <div class="products">
+
+      <div class="product">
+        <h3>ザバス ホエイプロテイン100</h3>
+        <div class="block"><span class="tag good">良い点</span><p>実際に飲んだ人の声を追うと、外付けスプーンの使い勝手の良さと、薄めに溶かすとダマや甘さが気にならないという工夫がよく語られています。ミルクココアのような甘さを「ご褒美ドリンク」として続ける人もいるようです。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>規定濃度だとダマが残りやすく、他社より価格が高いという声も。天然由来から人工甘味料への切り替えを惜しむ声も見られました。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>甘さを求める人には合いやすい一方、甘さ控えめ・低価格志向の人には他の選択肢のほうが向いているかもしれません。</p>
+      </div>
+
+      <div class="product">
+        <h3>マイプロテイン Impact ホエイ</h3>
+        <div class="block"><span class="tag good">良い点</span><p>価格の割に量が多く続けやすいという評価が中心で、プロテイン特有の粉っぽさが少ないという声も多いようです。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>評価は真っ二つに割れます。「よく溶ける」という声と溶け残りが目立つという声が同じくらいの熱量で並び、封が閉まっていない・違うフレーバーが届くといった配送品質のばらつきも報告されているため、当たり外れはある程度覚悟しておいたほうが無難です。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>コスト最優先の人向け。届いてすぐ安定した品質を求める人には、正直やや不安が残ります。</p>
+      </div>
+
+      <div class="product">
+        <h3>ビーレジェンド</h3>
+        <div class="block"><span class="tag good">良い点</span><p>フレーバーは豊富ですが、今の一本の甘さに満足し、他の味に挑戦する勇気が出ないという声があるほど支持は厚いようです。泡立ちにくくダマも残りにくいという評価も多数派です。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>開封済みで届いたという梱包トラブルの報告もあり、個体差はゼロではなさそうです。毎日同じ味だと飽きるという声や、大容量パックのほうが割高になる価格設定への疑問も見られました。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>気に入った味を長く楽しみたい人向け。逆にいろいろ試したい人には「踏み出しにくさ」がやや気になるかもしれません。</p>
+      </div>
+
+      <div class="product">
+        <h3>ゴールドジム ホエイプロテイン100</h3>
+        <div class="block"><span class="tag good">良い点</span><p>甘さ控えめで毎日飲んでも飽きにくく、乳糖の少ないタイプでお腹を壊しにくいという声が多く見られます。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>風味そのものが受け付けないという厳しい評価も同じくらい目立ちます。重く濁ったような後味や苦味・薬品っぽさを訴える声も多く、「以前と味が変わった」という指摘から配合やロットの変更を疑う投稿も見られました。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>甘すぎるのが苦手な人には合いやすい一方、その分「物足りない」「風味が強すぎる」と感じる人も出やすい製品のようです。</p>
+      </div>
+
+      <div class="product">
+        <h3>DNS ホエイプロテイン</h3>
+        <div class="block"><span class="tag good">良い点</span><p>サラサラとした粉末で手動シェイカーでも溶けやすいという評価が中心です。甘さ控えめでビタミンも摂れる点を評価する声もありました。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>少数ながら人工的な風味が強く飲みきれなかったという厳しい評価も混ざり、パッケージ破損による粉漏れの報告も複数あります。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>無難さや溶けやすさの安定感を求める人向け。強いフレーバーを求める人には物足りなく映るかもしれません。</p>
+      </div>
+
+      <div class="product">
+        <h3>エクスプロージョン</h3>
+        <div class="block"><span class="tag good">良い点</span><p>何といっても価格と量のインパクトが目を引く商品です。クセの少ない味で、1食あたり20g程度のタンパク質が摂れる計算のコスパの良さから支持が厚いです。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>ここ数年で価格がほぼ倍近くまで上がり、値上げへの不満の声が目立ちます。原材料がホエイ100%から一部豚コラーゲンペプチド配合に変わったことへの反発もあり、「溶けにくくなった」という声も見られました。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>量とコストを優先したい人向けですが、以前ほど手放しにはすすめにくく、購入前に最新の価格・成分表示は確認しておいたほうがよさそうです。</p>
+      </div>
+
+      <div class="product">
+        <h3>バルクスポーツ ビッグホエイ</h3>
+        <div class="block"><span class="tag good">良い点</span><p>乳糖の少ないタイプで、普段お腹を下しやすい人でも「調子を崩さなくなった」という声が複数あり、溶けやすさへの評価も総じて高めです。</p></div>
+        <div class="block"><span class="tag caution">気になる点</span><p>独特の風味を「薬品っぽい」と感じ、人工的な甘さで気持ち悪くなったという報告もありました。</p></div>
+        <p class="forwhom"><b>こんな人向け</b><br>味よりお腹への相性を優先したい人には有力な選択肢です。価格はやや高めなので、まずは少量から試すのが安心かもしれません。</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2 class="display">低評価レビューで指摘が集中していた点</h2>
+    <div class="patterns">
+      <div class="pattern">
+        <h4>溶けにくさ・ダマ</h4>
+        <p>特に海外輸送のマイプロテインや大容量パックの製品でこの声が多い傾向がありました。水の量や温度、混ぜる順番を変えて改善したという体験談もあり、作り方の工夫で軽減できる場合もありそうです。</p>
+      </div>
+      <div class="pattern">
+        <h4>味の急な変化</h4>
+        <p>ゴールドジムやエクスプロージョンのように、以前の配合を知るリピーターから「前と違う」という声がまとまって出ている製品がありました。</p>
+      </div>
+      <div class="pattern">
+        <h4>梱包・配送品質</h4>
+        <p>袋の破損や粉漏れ、開封済みでの到着といった報告は複数ブランドで見られ、味とは別の問題ながら無視できない量でした。ごく一部ですが異物混入を訴える報告もあり、頻度は高くないものの当たれば影響が大きい点は留意しておきたいところです。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="prose">
+    <h2 class="display">使い方別のおすすめ</h2>
+    <ul class="usage-list">
+      <li><b>甘い系のドリンク感覚で続けたい人</b>：ザバスかビーレジェンド。表示量より薄めから試すと、ダマや甘さの重さが気になりにくいという声が複数ありました。</li>
+      <li><b>コストと量を優先したい人</b>：エクスプロージョン。ただし値上げと原材料変更が続いているため、購入前に価格と成分表示の確認を。</li>
+      <li><b>お腹の弱さが気になる人</b>：ゴールドジムかバルクスポーツのWPI系から。風味を薬品っぽいと感じる人もいるため、少量パックから始めるのが無難です。</li>
+      <li><b>無難に失敗を避けたい人</b>：DNS。突出した長所は少ないぶん、大きく外れたという報告も比較的少なめでした。</li>
+    </ul>
+    <p>どれを選ぶにしても、初回は小容量から試すのが失敗しにくい方法かもしれません。</p>
+  </section>
+
+  <section class="prose" style="border-bottom:none;">
+    <h2 class="display">まとめ</h2>
+    <p>今回見た7製品は、それぞれ一定数の支持を集めている一方で、違う理由から「合わなかった」というレビューも抱えていました。溶けやすさ、味の系統、お腹への相性は実際に試してみないと分からない部分が大きく、レビューの評価が割れているのもそのためだと考えられます。まずは少量パックやお試しサイズがある製品から試し、自分の体質と好みに合うものを探していくのが、遠回りに見えて実は近道かもしれません。値段や知名度だけで即決せず、気になる製品のレビューを一通り眺めてから選ぶくらいの慎重さが、結果的に「まずくて続かない」を避ける一番の近道になりそうです。</p>
+  </section>
+
+  <footer>
+    <p class="disclosure">本記事は購入者レビューをもとにした比較・要約であり、効果効能を保証するものではありません。体質・体調には個人差があります。本記事にはアフィリエイトリンクが含まれる場合があります。価格・成分表示は変更されることがあるため、購入前に販売ページで最新情報をご確認ください。</p>
+  </footer>
+
+</div>
+</body>
+</html>
